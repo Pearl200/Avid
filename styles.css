@@ -1,0 +1,41 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f4f4f4;
+}
+
+.container {
+  text-align: center;
+  background-color: #ffffff;
+}
+
+input {
+  padding: 8px;
+  margin: 5px;
+}
+
+button {
+  padding: 15px 35px;
+  background-color: #007bff;
+  color: #fff;
+  border: 2px , solid;
+  border-radius: 20%;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+.login-form {
+  margin-bottom: 20px;
+}
+
+#summary {
+  margin-top: 20px;
+}
